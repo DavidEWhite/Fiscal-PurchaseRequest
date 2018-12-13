@@ -1,0 +1,463 @@
+﻿<STYLE TYPE="text/css">
+a:link { 
+	color: blue; 
+	text-decoration: 
+	underline; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 9pt 
+	}
+a:active { 
+	color: blue; 
+	text-decoration: underline; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 9pt 
+	}
+a:visited { 
+	color: blue; 
+	text-decoration: 
+	underline; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 9pt 
+	}
+a:hover { 
+	color: red; 
+	text-decoration: underline; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 9pt 
+	}
+a:link.nav { 
+	color: white; 
+	text-decoration: none; 
+	font-weight: bold; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 8pt 
+	}
+a:active.nav { 
+	color: white; 
+	text-decoration: none; 
+	font-weight: bold; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 8pt 
+	}
+a:visited.nav { 
+	color: white; 
+	text-decoration: none; 
+	font-weight: bold; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 8pt 
+	}
+a:hover.nav { 
+	color: red; 
+	text-decoration: none; 
+	font-weight: bold; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 8pt 
+	}
+a:link.redirect { 
+	color: #003399; 
+	text-decoration: underline; 
+	font-weight: bold; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 12pt 
+	}
+a:active.redirect { 
+	color: #003399; 
+	text-decoration: underline; 
+	font-weight: bold; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 12pt 
+	}
+a:visited.redirect { 
+	color: #003399; 
+	text-decoration: underline; 
+	font-weight: bold; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 12pt 
+	}
+a:hover.redirect { 
+	color: red; 
+	text-decoration: underline; 
+	font-weight: bold; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 12pt 
+	}
+a:link.mini { 
+	color: blue; 
+	text-decoration: underline; 
+	font-weight: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 8pt 
+	}
+a:active.mini { 
+	color: blue; 
+	text-decoration: underline; 
+	font-weight: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 8pt 
+	}
+a:visited.mini { 
+	color: blue; 
+	text-decoration: underline; 
+	font-weight: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 8pt 
+	}
+a:hover.mini {
+	color: red; 
+	text-decoration: underline; 
+	font-weight: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 8pt 
+	}
+a:link.phone {
+	color: black; 
+	text-decoration: none; 
+	font-weight: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 8pt 
+	}
+a:active.phone { 
+	color: black; 
+	text-decoration: none; 
+	font-weight: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 8pt 
+	}
+a:visited.phone {
+	color: black; 
+	text-decoration: none; 
+	font-weight: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 8pt 
+	}
+a:hover.phone { 
+	color: red; 
+	text-decoration: none; 
+	font-weight: bold; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 8pt 
+	}
+a:link.nav2 {
+	color: black; 
+	text-decoration: none; 
+	font-weight: normal; 
+	font-family: Veranda,Arial, Helvetica, Univers,Zurich BT, sans-serif; 
+	font-size: 9pt
+	}
+a:active.nav2 { 
+	color: black; 
+	text-decoration: none; 
+	font-weight: normal; 
+	font-family: Veranda,Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 9pt 
+	}
+a:visited.nav2 { 
+	color: black; 
+	text-decoration: none; 
+	font-weight: normal; 
+	font-family: Veranda,Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 9pt 
+	}
+a:hover.nav2 { 
+	color: red; 
+	text-decoration: none; 
+	font-weight: normal; 
+	font-family: Veranda,Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 9pt 
+	}
+a:link.nav3 {
+	color: red; 
+	text-decoration: underline; 
+	font-weight: normal; 
+	font-family: Veranda,Arial, Helvetica, Univers,Zurich BT, sans-serif; 
+	font-size: 9pt
+	}
+a:active.nav3 {
+	color: red; 
+	text-decoration: underline; 
+	font-weight: normal; 
+	font-family: Veranda,Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 9pt 
+	}
+a:visited.nav3 {
+	color: red; 
+	text-decoration: underline; 
+	font-weight: normal; 
+	font-family: Veranda,Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 9pt
+	}
+a:hover.nav3 {
+	color: blue; 
+	text-decoration: underline; 
+	font-weight: normal; 
+	font-family: Veranda,Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 9pt
+	}
+a:link.Admin {
+	color: white; 
+	text-decoration: underline; 
+	font-weight: normal; 
+	font-family: Veranda,Arial, Helvetica, Univers,Zurich BT, sans-serif; 
+	font-size: 9pt
+	}
+a:active.Admin {
+	color: red; 
+	text-decoration: underline; 
+	font-weight: normal; 
+	font-family: Veranda,Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 9pt
+	}
+a:visited.Admin {
+	color: white; 
+	text-decoration: underline; 
+	font-weight: normal; 
+	font-family: Veranda,Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 9pt 
+	}
+a:hover.Admin {
+	color: red; 
+	text-decoration: underline; 
+	font-weight: normal; 
+	font-family: Veranda,Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-size: 9pt
+	}
+H1 {
+	font-size: 9pt;  
+	COLOR:#003399; 
+	font-style: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+H2 {
+	font-size: 10pt;  
+	COLOR: #003399; 
+	font-style: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+H3 {
+	font-size: 12pt;  
+	COLOR: #003399; 
+	font-style: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+H4 {
+	font-size: 9pt;  
+	COLOR:black; 
+	font-style: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+H5 {
+	font-size: 9pt;  
+	COLOR:darkred; 
+	font-style: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+H6 {
+	font-size: 9pt;  
+	COLOR:#FFFFCC; 
+	font-style: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+LI {
+	font-size: 9pt;  
+	color:#000000; 
+	font-style: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+LI.red {
+	font-size: 9pt;  
+	color:red; 
+	font-style: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+LI.mini {
+	font-size: 9pt;  
+	color:#000000; 
+	font-style: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+LI.mini1 {
+	font-size: 8pt;  
+	color:#000000; 
+	font-style: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+P  {
+	font-size: 9pt;  
+	color:#000000; 
+	font-style: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+P.WH  {
+	font-size: 9pt;  
+	color:#FFFFFF; 
+	font-style: normal; 
+	font-weight: bold; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+P.dom  {
+	font-size: 16pt;  
+	color:#ffffc0; 
+	font-style: bold; 
+	font-weight: bold; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+P.domheader {
+	font-size: 20pt;  
+	color:#FEFEE4; 
+	font-style: bold; 
+	font-weight: bold; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	font-variant : small-caps
+	}
+P.mini {
+	font-size: 8pt;  
+	color:black; 
+	font-style: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+P.RED  {
+	font-size: 12pt;  
+	color:red; 
+	font-style: normal; 
+	font-weight: bold; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+P.PHONE  {
+	font-size: 8pt;  
+	color:#000000; 
+	font-style: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+P.BLUE  {
+	font-size: 10pt;  
+	color:navy; 
+	font-style: normal; 
+	font-weight: bold; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+CODE  {
+	font-size: 9pt;	
+	color:#000000;	
+	font-style: normal;	
+	font-family: Garamond,serif
+	}
+CODE.BL {
+	font-size: 9pt;  
+	color:#0000C0; 
+	font-style: normal; 
+	font-weight: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+	CODE.RED {
+	font-size: 9pt;  
+	color:#FF0000; 
+	font-style: normal; 
+	font-weight: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+PRE  {
+	font-size: 10pt;  
+	color:#000000; 
+	font-style: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+ADDRESS  {
+	font-size: 10pt;  
+	color:#000000; 
+	font-style: italic; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+TH {
+	font-size: 9pt;  
+	COLOR:#003399; 
+	font-style: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+TH.mini {
+	font-size: 8pt;  
+	COLOR:#003399; 
+	font-style: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}	
+TD {
+	font-size: 9pt;  
+	color:#000000; 
+	font-style: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+TD.mini {
+	font-size: 8pt;  
+	color:#000000; 
+	font-style: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif
+	}
+HR {
+	size: 2; 
+	COLOR:#003399 
+	}
+.texta {
+	font-size: 12px;  
+	color:#000000; 
+	font-style: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	background-color: #EFEFEF; 
+	border: 1px solid #666666
+	}
+.textb {
+	font-size: 11px;  
+	color:#000000; 
+	font-style: normal; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	background-color: #F5F5F5; 
+	border: 1px solid #666666
+	}
+.textc {
+	font-size: 11px;  
+	color:#000000; 
+	font-style: normal;  
+	font-weight: bold; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	background-color: mistyrose; 
+	border: 1px solid #666666
+	}	
+.textd {
+	font-size: 11px;  
+	color:#000000; 
+	font-style: normal; 
+	font-weight:bold; 
+	font-family: Arial,Helvetica,Univers,Zurich BT, sans-serif; 
+	background-color: #EFEFEF; 
+	border: 0px
+	}
+/*		data tables		*/
+.data-table {
+	margin-bottom: 12px;
+	background-color: #CCCCCC;
+}
+.data-table caption {
+	margin-bottom: 2px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: left;
+}
+.data-table th{
+	padding: 3px;
+	background-color: #FFFFFF;
+	font-size: 12px;
+	vertical-align: top;
+}
+.data-table td{
+	padding: 3px;
+	background-color: #FFFFFF;
+	font-size: 12px;
+	vertical-align: top;
+}
+.data-table td p {
+	font-size: 12px;
+}
+.data-table td li {
+	font-size: 12px;
+}
+
+</STYLE>
